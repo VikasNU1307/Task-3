@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+.both-container{
+    display: flex;
+}
+/* Hover effect for all classes */
+
+.First-container{
+    margin: 1% 0% 0% 3%;
+
+    width: 500px;
+    /* background-color: red; */
+}
+
+
+
+.Pricing-plan {
+    margin: 3% 0% 0%;
+    height: 150px;
+    width: 400px;
+    padding-top: 30px;
+    background-color: rgb(239, 70, 110);
+    line-height: 50px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.Pricing-plan h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Shape {
+    margin-top: 4.4%;
+    height: 150px;
+    width: 50px;
+    z-index: 2;
+    transform: skewY(45deg) translateY(18px);
+    background-color: rgb(239, 70, 110);
+    transition: all 0.4s ease 0s;
+}
+
+.title {
+    display: flex;
+    width: 450px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.Month {
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: -16px;
+    color: #ffff;
+}
+
+.content-container {
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin-top: -3px;
+    /* border: 0.5px solid gray; */
+    height: 350px;
+    width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.vertical-line {
+    height: 366px;
+    border-left: 1px solid #cccbcb;
+}
+
+.Sign-up {
+    height: 50px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Sign-up button {
+    cursor: pointer;
+    height: 43.33px;
+    width: 108.208px;
+    border: 1px solid rgb(239, 70, 110);
+    color: rgb(239, 70, 110);
+    font-weight: 700;
+}
+
+.bottom-line {
+    margin-top: 33px;
+}
+
+.left-parallelogram {
+    margin-top: 10px;
+    width: 50px;
+    height: 350px;
+    background: #f8f8f8;
+    box-shadow: 9px 9px 20px #ddd;
+    position: relative;
+    transform: skewY(-45deg) translateY(-18px);
+}
+.First-container:hover{
+    .Pricing-plan{
+        background-color: rgb(6,214,160);
+    }
+    .Shape{
+        background-color: rgb(6,214,160);
+    }
+    .Sign-up button{
+        border: 1px solid rgb(6,214,160);
+        color: rgb(6,214,160);
+    }
+}
